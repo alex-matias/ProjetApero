@@ -1,0 +1,238 @@
+header{
+    background: url('../images/separateur.png') no-repeat bottom;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+	margin-top:50px;
+	margin:auto;
+	background-color:#dedede;
+}
+html, body{
+	margin:0;
+	padding:0;
+}
+
+#logo{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.logo{
+	width:45%;
+}
+#logo img{
+    width: 100px;
+    height: 100px;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav li{
+    margin-left: 15px;
+}
+
+nav a{
+    color: #181818;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+nav a:hover{
+    color:red;
+    text-decoration: underline;
+}
+#corps{
+	width:500px;
+	margin:0 20% 0 8%;
+	font-size:25;
+	font-family:"Bodoni", sans-serif;
+	font-size:150%;
+}
+#corps input{
+	margin-top:30px;
+	margin:auto;
+	width: 500px;
+	font-size:100%;
+	text-align:center;
+}
+#corps input[type=text]{
+	text-align:left;
+}
+#corps input[type=password]{
+	text-align:left;
+}
+#corps input[type=number]{
+	text-align:left;
+}
+#corps input[type=date]{
+	text-align:left;
+}
+#corps input[type=tel]{
+	text-align:left;
+}
+#corps input[type=email]{
+	text-align:left;
+}
+.titre{
+	margin-top:30px;
+	margin:auto;
+	text-align:center;
+	width: 500px;
+	font-size:50;
+	font-family:"Bodoni", sans-serif;
+}
+#connec input{
+	margin-top:30px;
+	margin:auto;
+	width: 500px;
+	font-size:25;
+	text-align:center;
+}
+#connec input[type=text]{
+	text-align:left;
+}
+#connec input[type=password]{
+	text-align:left;
+}
+#conneci input{
+	margin-top:30px;
+	margin:auto;
+	width: 500px;
+	font-size:25;
+	text-align:center;
+}
+#conneci input[type=text]{
+	text-align:left;
+}
+#conneci input[type=password]{
+	text-align:left;
+}
+#connec input[type=email]{
+	text-align:left;
+}
+#connec{
+	margin:0 20% 0 8%;
+	width: 500px;
+	font-size:25;
+	font-family:"Bodoni", sans-serif;
+}
+#conneci{
+	width:500px;
+	margin:0 20% 0 8%;
+	font-size:25;
+	font-family:"Bodoni", sans-serif;
+}
+.co {
+	text-align:center;
+}
+.img{
+	margin: 50% 1% 10% 1%;
+	text-align:center;
+	margin: 0 30% 0 30%;
+	padding: 2% 2.8% 2% 1%;
+	border-radius:10px;
+	font-size:25;
+}
+.img2{
+	font-size:25;
+	padding: 2% 0 2% 0;
+	text-align:center;
+}
+.pos{
+	padding:25px;
+}
+.pack{
+	margin: 0 30% 0 30%;
+	padding: 2% 2.8% 2% 1%;
+	border-radius:10px;
+}
+.pack2{
+	margin: 0 30% 0 30%;
+	border-radius:10px;
+	padding-top:2%;
+	padding-bottom:1%;
+	font-family:"Bodoni", sans-serif;
+}
+input[type=text]{
+	text-align:left;
+}
+#bloc_page{
+	background-image:url(../images/Pelouse.png);
+	padding:6.5%;
+	padding-right:5.6%;
+}
+.packs{
+	margin-left:15%;
+	padding: 2% 2.8% 2% 1%;
+	border-radius:10px;
+	overflow-y:scroll;
+	width:37%;
+	max-height:550px;
+}
+.packs3{
+	margin-left:30%;
+	padding: 2% 2.8% 2% 1%;
+	border-radius:10px;
+	overflow-y:scroll;
+	width:37%;
+	max-height:550px;
+}
+.tab{
+	display:bloc; 
+	float:right;
+	text-align:center;
+	font-size:100%;
+	padding:5px;
+	position:absolute;
+	left:57.5%;
+	top:30%;
+	border-radius:10px;
+}
+.tabs{
+	display:bloc; 
+	float:right;
+	text-align:center;
+	font-size:125%;
+	padding:5px;
+	top:30%;
+	position:absolute;
+	left:75%;
+	border-radius:10px;
+}
+.tabs3{
+	display:bloc; 
+	float:right;
+	text-align:center;
+	font-size:125%;
+	padding:20px;
+	top:35%;
+	position:absolute;
+	left:80%;
+	border-radius:10px;
+}
+.btn2{
+	width:10.5%;
+	font-size:135%;
+	position:absolute;
+	bottom:80%;
+	right:85%;
+}
+table_bord{
+	text-align:center;
+	border-collapse:collapse;
+}
+table, table th, table td{
+	border: 1px solid black;
+	text-align:center;
+	text-justify:auto;
+}
+.creat{
+	width:13%;
+	border-radius:5px;
+	margin-left:90%;
+	font-size:20px;
+	font-family:"Bodoni", sans-serif;
+}
