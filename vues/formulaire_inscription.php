@@ -5,6 +5,8 @@
     <title>Apero</title>
 </head>
 <body>
+
+<!-- Header avec logo + navbar -->
         <header>
             <div id="logo">
                 <a href="index.php">
@@ -17,7 +19,10 @@
                 </ul>
             </nav>
         </header>
+
+<!-- Bloc page avec le titre -->
 	<div id="bloc_page">
+        <!--Formulaire pour se deconnecter, renvoie donc vers le controleur deconnexion-->
          <form method="post" action="../controleurs/deconnexion.php">
             <input class="btn2" type="submit" value="Se deconnecter">
         </form>
@@ -26,6 +31,7 @@
 			<br>
 				<div id="connec">
 				<br>
+                    <!-- Formulaire d'inscription, renvoie vers le controleur inscription -->
 				<form method="post" action="../controleurs/inscription.php">
 					<fieldset name="ajout_enfant">
 						<legend class="co">Ajout d'un parent</legend>
@@ -51,6 +57,7 @@
 					</div>
 					</div>
 					<div class="tabs3" style="background-color: rgba(255,255,255,0.7)">
+                        <!-- Tableau d'affichage des parents déja inscrits -->
                         <?php
                             require_once('../modeles/bd.php');
                             echo "<table>
@@ -61,6 +68,7 @@
                             while($row= mysqli_fetch_row($resultat)){
                             echo "<tr><td>$row[0]</td><td><form method='post' action='../controleurs/suppr_user.php'>
                             <input type='text' name='pseudo' hidden='' value='$row[0]'>
+                            <!-- Bouton pour supprimer une personne déja inscrite -->
                             <input type='submit' value='Supprimer'>
                             </form></td></tr>";
                             }

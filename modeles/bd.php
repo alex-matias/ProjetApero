@@ -1,3 +1,4 @@
+<!-- Connexion a la base de donnée xampp -->
 <?php
   $host = "localhost"; // ou 127.0.0.1
   $user = "root";

@@ -1,3 +1,4 @@
+<!-- Classe enfant -->
 <?php
     require_once("bd.php");
     class Enfant{
@@ -13,6 +14,7 @@
         function __construct() {
 	$n=func_num_args();
 	$args=func_get_args();
+	//S'il y a 7 arguments, ajout de l'enfant dans la BD  s'il n'y est pas déja
 	if ($n==7){
 		$this->co = $args[0];
 		$this->idEnfant = $args[1];
@@ -21,6 +23,8 @@
         $this->dateNaiss = $args[4];
         $this->telParent = $args[5];
         $this->mailParent = $args[6];
+
+        //Ajout de la catégorie à l'enfant en fonction de sa date de naissance
         if($this->dateNaiss<='1996/12/31' && $this->dateNaiss>='1998/01/01'){
             $this->idCateg=5;
         }
@@ -48,6 +52,7 @@
         }
 	}
 
+	//S'il n'y a que deux arguments, l'enfant en question, s'il est déja dans la BD est supprimé de la BD
 	if($n==2){
         $this->co = $args[0];
 		$this->idEnfant = $args[1];

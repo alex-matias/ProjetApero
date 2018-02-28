@@ -38,6 +38,7 @@ $monUtilisateur = new Utilisateur($co,$pseudo,$mdp) ;
 			<br>
 			<div id="corps">
 				<br>
+                <!-- Formulaire d'ajout d'un enfant a la BD -->
 				<form method="post" action="../controleurs/ajout_enfant.php">
 					<fieldset name="ajout_enfant">
 						<legend class="co">Ajouter un enfant :</legend>
@@ -76,6 +77,7 @@ $monUtilisateur = new Utilisateur($co,$pseudo,$mdp) ;
 					</div>
 					<br>
 				<div class="tabs" style="background-color: rgba(255,255,255,0.7)">
+                    <!-- Affichage de tous les enfants inscrits -->
 					<?php
 					require_once('../modeles/bd.php');
 				echo "<table>
@@ -84,7 +86,9 @@ $monUtilisateur = new Utilisateur($co,$pseudo,$mdp) ;
 				$resultat = mysqli_query($co, "SELECT idEnfant,nomEnf, prenomEnfant,solde FROM enfant ");
 				$nb_rows = mysqli_num_rows($resultat);
 				while($row= mysqli_fetch_row($resultat)){
-					echo "<tr><td>$row[0]</td><td>$row[1]</td><td>$row[2]</td><td>$row[3]</td><td><form method='post' action='../controleurs/suppr_enfant.php'>
+					echo "<tr><td>$row[0]</td><td>$row[1]</td><td>$row[2]</td><td>$row[3]</td><td>
+                <!-- Formulaire de suppression d'un enfant -->
+                <form method='post' action='../controleurs/suppr_enfant.php'>
 					<input type='number' name='idEnfant' hidden='' value='$row[0]'>
 					<input type='submit' value='Supprimer'>
 					</form></td></tr>";

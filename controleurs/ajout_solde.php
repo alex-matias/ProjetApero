@@ -4,6 +4,7 @@
     $idEnfant=$_POST['idEnfant'];
     $montant=$_POST['montant'];
     $prenom=$_POST['prenom'];
+    //Mise a jour du solde de l'enfant
     $resultat=mysqli_query($co,"UPDATE enfant SET solde=solde+'$montant' WHERE idEnfant='$idEnfant' AND prenomEnfant='$prenom'");
     header('Location:../vues/page_parent.php');
 ?>

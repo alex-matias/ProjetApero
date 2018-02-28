@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f4c19f2a-21cb-4bed-bdff-c0dc1e0723c7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/controleurs/acheter.php" afterPath="$PROJECT_DIR$/controleurs/acheter.php" />
+      <change beforePath="$PROJECT_DIR$/controleurs/ajout_enfant.php" afterPath="$PROJECT_DIR$/controleurs/ajout_enfant.php" />
+      <change beforePath="$PROJECT_DIR$/controleurs/ajout_produit.php" afterPath="$PROJECT_DIR$/controleurs/ajout_produit.php" />
+      <change beforePath="$PROJECT_DIR$/controleurs/ajout_solde.php" afterPath="$PROJECT_DIR$/controleurs/ajout_solde.php" />
+      <change beforePath="$PROJECT_DIR$/controleurs/ajout_stock.php" afterPath="$PROJECT_DIR$/controleurs/ajout_stock.php" />
+      <change beforePath="$PROJECT_DIR$/controleurs/connexion.php" afterPath="$PROJECT_DIR$/controleurs/connexion.php" />
+      <change beforePath="$PROJECT_DIR$/controleurs/deconnexion.php" afterPath="$PROJECT_DIR$/controleurs/deconnexion.php" />
+      <change beforePath="$PROJECT_DIR$/controleurs/inscription.php" afterPath="$PROJECT_DIR$/controleurs/inscription.php" />
+      <change beforePath="$PROJECT_DIR$/controleurs/modif_prix.php" afterPath="$PROJECT_DIR$/controleurs/modif_prix.php" />
+      <change beforePath="$PROJECT_DIR$/controleurs/suppr_enfant.php" afterPath="$PROJECT_DIR$/controleurs/suppr_enfant.php" />
+      <change beforePath="$PROJECT_DIR$/controleurs/suppr_produit.php" afterPath="$PROJECT_DIR$/controleurs/suppr_produit.php" />
+      <change beforePath="$PROJECT_DIR$/controleurs/suppr_user.php" afterPath="$PROJECT_DIR$/controleurs/suppr_user.php" />
+      <change beforePath="$PROJECT_DIR$/modeles/bd.php" afterPath="$PROJECT_DIR$/modeles/bd.php" />
+      <change beforePath="$PROJECT_DIR$/modeles/enfant.php" afterPath="$PROJECT_DIR$/modeles/enfant.php" />
+      <change beforePath="$PROJECT_DIR$/modeles/produit.php" afterPath="$PROJECT_DIR$/modeles/produit.php" />
+      <change beforePath="$PROJECT_DIR$/modeles/utilisateur.php" afterPath="$PROJECT_DIR$/modeles/utilisateur.php" />
+      <change beforePath="$PROJECT_DIR$/vues/formulaire_connexion.php" afterPath="$PROJECT_DIR$/vues/formulaire_connexion.php" />
+      <change beforePath="$PROJECT_DIR$/vues/formulaire_inscription.php" afterPath="$PROJECT_DIR$/vues/formulaire_inscription.php" />
+      <change beforePath="$PROJECT_DIR$/vues/gerer_produit.php" afterPath="$PROJECT_DIR$/vues/gerer_produit.php" />
+      <change beforePath="$PROJECT_DIR$/vues/page_parent.php" afterPath="$PROJECT_DIR$/vues/page_parent.php" />
+      <change beforePath="$PROJECT_DIR$/vues/page_president.php" afterPath="$PROJECT_DIR$/vues/page_president.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/vues/formulaire_connexion.php" />
+        <option value="$PROJECT_DIR$/vues/formulaire_inscription.php" />
+        <option value="$PROJECT_DIR$/vues/gerer_produit.php" />
+        <option value="$PROJECT_DIR$/vues/page_president.php" />
+        <option value="$PROJECT_DIR$/vues/page_parent.php" />
+        <option value="$PROJECT_DIR$/modeles/bd.php" />
+        <option value="$PROJECT_DIR$/modeles/enfant.php" />
+        <option value="$PROJECT_DIR$/modeles/produit.php" />
+        <option value="$PROJECT_DIR$/modeles/utilisateur.php" />
+        <option value="$PROJECT_DIR$/controleurs/acheter.php" />
+        <option value="$PROJECT_DIR$/controleurs/ajout_enfant.php" />
+        <option value="$PROJECT_DIR$/controleurs/ajout_produit.php" />
+        <option value="$PROJECT_DIR$/controleurs/ajout_solde.php" />
+        <option value="$PROJECT_DIR$/controleurs/ajout_stock.php" />
+        <option value="$PROJECT_DIR$/controleurs/connexion.php" />
+        <option value="$PROJECT_DIR$/controleurs/deconnexion.php" />
+        <option value="$PROJECT_DIR$/controleurs/inscription.php" />
+        <option value="$PROJECT_DIR$/controleurs/modif_prix.php" />
+        <option value="$PROJECT_DIR$/controleurs/suppr_enfant.php" />
+        <option value="$PROJECT_DIR$/controleurs/suppr_produit.php" />
+        <option value="$PROJECT_DIR$/controleurs/suppr_user.php" />
+        <option value="$PROJECT_DIR$/assets/css/stylePr.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1366" />
+    <option name="height" value="768" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="projetApero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projetApero" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="projetApero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projetApero" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="projetApero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projetApero" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4c19f2a-21cb-4bed-bdff-c0dc1e0723c7" name="Default" comment="" />
+      <created>1519838671447</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1519838671447</updated>
+      <workItem from="1519838672978" duration="3030000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3030000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vues/formulaire_inscription.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="70" column="85" lean-forward="false" selection-start-line="70" selection-start-column="85" selection-end-line="70" selection-end-column="85" />
+          <folding>
+            <marker date="1519839253984" expanded="true" signature="2141:2211" ph="..." />
+            <marker date="1519839253984" expanded="true" signature="2353:2382" ph="SELECT Login... utilisateur" />
+            <marker date="1519839253984" expanded="true" signature="2561:2928" ph="..." />
+            <marker date="1519839253984" expanded="true" signature="2581:2923" ph="..." />
+            <marker date="1519839253984" expanded="true" signature="2640:2918" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/page_parent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1516">
+          <caret line="76" column="16" lean-forward="true" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+          <folding>
+            <marker date="1519840170175" expanded="true" signature="2200:2247" ph="..." />
+            <marker date="1519840170175" expanded="true" signature="2410:2464" ph="SELECT idEnf... enfant" />
+            <marker date="1519840170175" expanded="true" signature="2566:3286" ph="..." />
+            <marker date="1519840170175" expanded="true" signature="2634:2890" ph="..." />
+            <marker date="1519840170175" expanded="true" signature="2764:2885" ph="..." />
+            <marker date="1519840170175" expanded="true" signature="2898:3281" ph="..." />
+            <marker date="1519840170175" expanded="true" signature="2898:3286" ph="..." />
+            <marker date="1519840170175" expanded="true" signature="3023:3276" ph="..." />
+            <marker date="1519840170175" expanded="true" signature="3768:3804" ph="SELECT NomPr... produitunique" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/page_president.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="89" column="62" lean-forward="false" selection-start-line="89" selection-start-column="62" selection-end-line="89" selection-end-column="62" />
+          <folding>
+            <marker date="1519840158735" expanded="true" signature="2587:2636" ph="..." />
+            <marker date="1519840158735" expanded="true" signature="2755:2809" ph="SELECT idEnf... enfant" />
+            <marker date="1519840158735" expanded="true" signature="2917:3263" ph="..." />
+            <marker date="1519840158735" expanded="true" signature="2985:3258" ph="..." />
+            <marker date="1519840158735" expanded="true" signature="3126:3253" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/nous_contacter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/gerer_produit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="68" column="52" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding>
+            <marker date="1519839600901" expanded="true" signature="2430:2504" ph="..." />
+            <marker date="1519839600901" expanded="true" signature="2670:2732" ph="SELECT idPro... produitunique" />
+            <marker date="1519839600901" expanded="true" signature="2911:3945" ph="..." />
+            <marker date="1519839600901" expanded="true" signature="2979:3945" ph="..." />
+            <marker date="1519839600901" expanded="true" signature="2993:3943" ph="..." />
+            <marker date="1519839600901" expanded="true" signature="3223:3571" ph="..." />
+            <marker date="1519839600901" expanded="true" signature="3358:3566" ph="..." />
+            <marker date="1519839600901" expanded="true" signature="3575:3940" ph="..." />
+            <marker date="1519839600901" expanded="true" signature="3715:3935" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modeles/bd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modeles/produit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="41" column="102" lean-forward="false" selection-start-line="41" selection-start-column="102" selection-end-line="41" selection-end-column="102" />
+          <folding>
+            <marker date="1519840701795" expanded="true" signature="648:712" ph="SELECT idPro... produit" />
+            <marker date="1519840701795" expanded="true" signature="800:909" ph="SELECT NomPr... produitunique" />
+            <marker date="1519840701795" expanded="true" signature="989:1036" ph="INSERT INTO produit... " />
+            <marker date="1519840701795" expanded="true" signature="1077:1234" ph="INSERT INTO produitUnique... " />
+            <marker date="1519840701795" expanded="true" signature="1624:1688" ph="SELECT idPro... produit" />
+            <marker date="1519840701795" expanded="true" signature="1774:1836" ph="DELETE FROM produitunique... " />
+            <marker date="1519840701795" expanded="true" signature="1876:1930" ph="DELETE FROM produit... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/formulaire_connexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modeles/utilisateur.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="54" column="88" lean-forward="false" selection-start-line="54" selection-start-column="88" selection-end-line="54" selection-end-column="88" />
+          <folding>
+            <marker date="1519840890661" expanded="true" signature="423:521" ph="SELECT Login... utilisateur" />
+            <marker date="1519840890661" expanded="true" signature="645:726" ph="INSERT INTO utilisateur... " />
+            <marker date="1519840890661" expanded="true" signature="1088:1141" ph="DELETE FROM utilisateur... " />
+            <marker date="1519840890661" expanded="true" signature="1502:1559" ph="SELECT Login... president" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modeles/enfant.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <marker date="1519840576879" expanded="true" signature="1466:1605" ph="SELECT idEnf... enfant" />
+            <marker date="1519840576879" expanded="true" signature="1686:1923" ph="INSERT INTO enfant... " />
+            <marker date="1519840576879" expanded="true" signature="2207:2267" ph="SELECT idEnf... enfant" />
+            <marker date="1519840576879" expanded="true" signature="2363:2416" ph="DELETE FROM enfant... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controleurs/ajout_enfant.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="104" lean-forward="false" selection-start-line="12" selection-start-column="104" selection-end-line="12" selection-end-column="104" />
+          <folding>
+            <marker date="1519841270195" expanded="true" signature="604:655" ph="SELECT Login... president" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controleurs/acheter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="69" lean-forward="false" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+          <folding>
+            <marker date="1519841270182" expanded="true" signature="149:215" ph="SELECT PrixV... produitunique" />
+            <marker date="1519841270182" expanded="true" signature="378:442" ph="UPDATE enfant... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controleurs/ajout_produit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controleurs/ajout_solde.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding>
+            <marker date="1519841523281" expanded="true" signature="255:349" ph="UPDATE enfant... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controleurs/ajout_stock.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding>
+            <marker date="1519841523244" expanded="true" signature="183:259" ph="UPDATE produitunique... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controleurs/connexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="52" lean-forward="false" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+          <folding>
+            <marker date="1519841523308" expanded="true" signature="233:319" ph="SELECT Login... utilisateur" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controleurs/deconnexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controleurs/inscription.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="53" lean-forward="false" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controleurs/modif_prix.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="48" lean-forward="false" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+          <folding>
+            <marker date="1519841573694" expanded="true" signature="194:268" ph="UPDATE produitunique... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controleurs/suppr_enfant.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding>
+            <marker date="1519841617676" expanded="true" signature="280:331" ph="SELECT Login... president" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controleurs/suppr_produit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controleurs/suppr_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/stylePr.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

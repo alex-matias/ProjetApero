@@ -1,3 +1,5 @@
+<!-- Classe produit -->
+
 <?php
     require_once("bd.php");
     class Produit{
@@ -11,6 +13,7 @@
         function __construct() {
 	$n=func_num_args();
 	$args=func_get_args();
+	//S'il y a 6 arguments, ajout d'un produit dans la BD, dans la Table produit, puis dans ProduitUnique
 	if ($n==6){
 		$this->co = $args[0];
 		$this->limite = $args[1];
@@ -35,6 +38,8 @@
 	}
 	if($n==3){
 	}
+
+	//s'il y a 3 arguments, supprime le produit de la BD, d'abord dans produitUnique puis dans produit
     if($n==2){
         $this->co = $args[0];
         $this->idProduit = $args[1];

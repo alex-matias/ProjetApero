@@ -5,6 +5,7 @@
     <title>Apero</title>
 </head>
 <body>
+<!-- Header avec logo + navbar -->
         <header>
             <div id="logo">
                 <a href="index.php">
@@ -27,6 +28,7 @@
 				<div id="corps">
 				<br>
 				<br>
+                    <!-- formulaire d'ajout de produit au gouter, renvoie vers le controleur d'ajout de produit -->
 				<form method="post" action="../controleurs/ajout_produit.php">
 					<fieldset name="ajout_produit">
 						<legend class="co">Ajout d'un produit</legend>
@@ -64,6 +66,7 @@
 				</div>
 				</div>
 				<div class="tab" style="background-color: rgba(255,255,255,0.7)">
+                    <!-- Tableau affichant tous les produits -->
                         <?php
                             require_once('../modeles/bd.php');
                             echo "<table>
@@ -72,12 +75,18 @@
                             $resultat = mysqli_query($co, "SELECT idProduit,nomProduit,PrixVente,Stock FROM produitunique ");
                             $nb_rows = mysqli_num_rows($resultat);
                             while($row= mysqli_fetch_row($resultat)){
-                            echo "<tr><td>$row[0]</td><td>$row[1]</td><td>$row[2]</td><td>$row[3]</td><td><form method='post' action='../controleurs/suppr_produit.php'><input type='number' name='idProduit' hidden='' value='$row[0]'><input type='submit' value='Supprimer'></form></td><td>
+                            echo "<tr><td>$row[0]</td><td>$row[1]</td><td>$row[2]</td><td>$row[3]</td><td>
+        <!-- Formulaire de suppression de produit -->
+        <form method='post' action='../controleurs/suppr_produit.php'><input type='number' name='idProduit' hidden='' value='$row[0]'><input type='submit' value='Supprimer'></form></td><td>
+        
+        <!-- Formulaire d'ajout du stock d'un produit-->
         <form method='post' action='../controleurs/ajout_stock.php'>
         <input type='number' name='idProduit' hidden='' value='$row[0]'>
         <input type='number' name='montant' placeholder='Ajouter stock'>
         <input type='submit' value='Ajouter'>
         </form></td><td>
+        
+        <!-- Formulaire de modification du prix du produit -->
         <form method='post' action='../controleurs/modif_prix.php'>
         <input type='number' name='idProduit' hidden='' value='$row[0]'>
         <input type='number' name='montant' step='0.1' placeholder='Modifier prix'>

@@ -4,7 +4,8 @@
     <link rel="stylesheet" href="../assets/css/stylePr.css" />
     <title>Apero</title>
 </head>
-<body>	
+<body>
+    <!-- Header avec logo + navbar -->
 		<header>
 			<div id="logo">
 				<a href="index.php">
@@ -17,7 +18,10 @@
 				</ul>
 			</nav>
 		</header>
-		<div id="bloc_page">
+
+    <!-- Corps de la page avec le titre et le formulaire -->
+
+    <div id="bloc_page">
 		<br>
 		<br>
 		<div class="pack" style="background-color: rgba(255,255,255,0.7)">
@@ -26,6 +30,8 @@
 			<br>
 			<div id="conneci">
 				<br>
+
+                <!-- formulaire de connexion, renvoie vers le controleur de connexion -->
 				<form method="post" action="../controleurs/connexion.php">
 				<fieldset name="ajout_enfant">
 					<legend class="co">Connection :</legend>
